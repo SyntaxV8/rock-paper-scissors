@@ -11,18 +11,27 @@
 
 <h1 class="selection">Please click one of the following buttons</h1>
 <div class="selection">
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+    <button id="rock" class="buttonOptions"><img src="rock.jpg" class="image"></button>
+    <button id="paper" class="buttonOptions"><img src="paper.jpg" class="image"></button>
+    <button id="scissors" class="buttonOptions"><img src="scissors.jpg" class="image"></button>
+</div>
+
+<h2 id="option" class="selection"></h2>
+
+<div class="selection">
+    <h1 id="wins" class="score">Wins: 0</h1>
+    <h1 id="ties" class="score">Ties: 0</h1>
+    <h1 id="losses" class="score">Losses: 0</h1>
 </div>
 
 <h1 class="selection">Press play!</h1>
 <div class="selection">
-    <button id="play">Play</button>
+    <button id="play" class="playButton">Play</button>
 </div>
 
-<h1 class="selection" id="result"></h1>
-
+<div class="selection">
+    <h1 id="result"></h1>
+</div>
 
 <script src="rock-paper-scissors.js"></script>
 </body>

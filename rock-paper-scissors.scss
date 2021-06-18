@@ -6,21 +6,53 @@ header {
   font-size: xx-large;
 }
 
+body {
+  background-color: #FCF2F0;
+}
+
 .selection{
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
+  padding: 3px;
 }
 
-.selection button{
+.buttonOptions {
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.playButton{
   margin: 0 20px;
   padding: 25px;
-  border-radius: 25%;
+  border-radius: 25px;
   border: none;
   outline: none;
   cursor: pointer;
   background : rgb(41, 40, 40);
   font-size: 33px;
   color: orange;
+}
+
+.image {
+  height: 200px;
+  width: auto;
+}
+
+.score {
+  margin: 15px;
+}
+
+.win {
+  color: green;
+}
+
+.loss {
+  color: red;
+}
+
+.tie {
+  color: black;
 }
